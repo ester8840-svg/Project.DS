@@ -1,6 +1,8 @@
 Steps Before sending to Zev:
 
-1. 1. Hebrew documentation where possible - more its better, 
+1. Hebrew documentation where possible - more its better
+   Please review the documentation I added, particularly the section covering the PDF generation code.
+3. OCR:
 
    2. Add to the project descriptions explanation that we try to make the solution work on CPU 
       to make it cheap and simple to use.
@@ -49,7 +51,7 @@ Steps Before sending to Zev:
    ```
 
 
-3. REGEX:
+4. REGEX:
 
     a. DO short research and collect small DB of passport string patterns.
       
@@ -63,7 +65,7 @@ Steps Before sending to Zev:
     c. Read OCR outputs and try to find passports by some rating to how many regexes matched. 
 
 
-4. Crate description of future DNN model for passports recognition.
+5. Crate description of future DNN model for passports recognition.
 
 
 
