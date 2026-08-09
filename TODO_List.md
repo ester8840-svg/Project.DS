@@ -1,10 +1,10 @@
 Steps Before sending to Zev:
 
-1. Hebrew documentation where possible - more its better
-   Please review the documentation I added, particularly the section covering the PDF generation code.
-3. OCR:
+1.  1. Hebrew documentation where possible - more its better
+   
+      Please review the documentation I added, particularly the section covering the PDF generation code.
 
-   2. Add to the project descriptions explanation that we try to make the solution work on CPU 
+    2. Add to the project descriptions explanation that we try to make the solution work on CPU 
       to make it cheap and simple to use.
 
 
