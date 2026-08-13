@@ -50,20 +50,9 @@ Steps Before sending to Zev:
    OCR passes: 100%|██████████| 8/8 [00:53<00:00,  6.74s/it, angle=315, image=PDF_Edge_Case_11_pag]
    ```
 
-
-4. REGEX:
-
-    a. DO short research and collect small DB of passport string patterns.
-      
-   Research docs:
-   - https://link.springer.com/chapter/10.1007/978-3-642-03315-5_11
-   - https://www.id4africa.com/2019/almanac/GEMALTO-Joseph-Leibenguth.pdf
-   - https://eoivienna.gov.in/public_files/assets/pdf/Passport_Photo_Requirements_230125.pdf
-
-    b. Transform the DB to regex.
-    
-    c. Read OCR outputs and try to find passports by some rating to how many regexes matched. 
-
+3. REGEX-2:
+   a. Transform the code and text in the passport_text_pattern_detector.ipynb notebook
+    to less AI genereted and more human
 
 5. Crate description of future DNN model for passports recognition.
 
@@ -78,3 +67,17 @@ DONE:
     from the images in dataset_images dir for 8 angles by routing the image 8 times 45 degrees
    
     c. Output to DF with 8 texts per image.
+
+4. REGEX-1: - MAXIM - DONE:
+
+    a. DO short research and collect small DB of passport string patterns.
+      
+   Research docs:
+   - https://link.springer.com/chapter/10.1007/978-3-642-03315-5_11
+   - https://www.id4africa.com/2019/almanac/GEMALTO-Joseph-Leibenguth.pdf
+   - https://www.icao.int/sites/default/files/publications/DocSeries/9303_p4_cons_en.pdf
+   - https://eoivienna.gov.in/public_files/assets/pdf/Passport_Photo_Requirements_230125.pdf
+
+    b. Transform the DB to regex.
+    
+    c. Read OCR outputs and try to find passports by some rating to how many regexes matched. 
