@@ -52,9 +52,7 @@ Steps Before sending to Zev:
 
 3. REGEX-2:
    a. Transform the code and text in the passport_text_pattern_detector.ipynb notebook
-    to less AI genereted and mor human
-   b. make it simpler, add result graphs.
-
+    to less AI genereted and more human
 
 5. Crate description of future DNN model for passports recognition.
 
